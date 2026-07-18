@@ -1,4 +1,4 @@
-package pl.spawnw0dka;
+package pl.ochronaspawna;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -22,7 +22,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SpawnW0dka extends JavaPlugin implements Listener {
+public class OchronaSpawna extends JavaPlugin implements Listener {
 
     private final Map<String, Region> regions = new HashMap<>();
 
