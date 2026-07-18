@@ -1,14 +1,14 @@
-name: SpawnW0dka
+name: OchronaSpawna
 version: 1.0
-main: pl.spawnw0dka.SpawnW0dka
+main: pl.ochronaspawna.OchronaSpawna
 api-version: '1.21'
 
 commands:
   sw:
-    description: Komendy SpawnW0dka
+    description: Komendy OchronaSpawna
     usage: /sw <wand|create|delete|list>
-    permission: spawnw0dka.admin
+    permission: ochronaspawna.admin
 
 permissions:
-  spawnw0dka.admin:
+  ochronaspawna.admin:
     default: op
